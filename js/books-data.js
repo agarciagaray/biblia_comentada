@@ -98,7 +98,7 @@ const BIBLIA_CATALOG = [
     category: "pentateuco",
     categoryLabel: "Pentateuco",
     file: "Exodo_24-40.htm.html",
-    available: false,
+    available: true,
     description: "Renovación de la Alianza, la construcción del Tabernáculo y el ajuar litúrgico.",
     chapters: "Caps. 24 a 40"
   },

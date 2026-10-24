@@ -74,11 +74,12 @@ Biblia/
 │   └── reader.js            # Motor del lector: barra superior, progreso, TOC y preferencias
 ├── images/
 │   └── icon_32.png          # Iconografía optimizada
-└── pages/                   # 48 Libros en HTML5 semántico con el texto bíblico y exégesis
+└── pages/                   # 49 Libros en HTML5 semántico con el texto bíblico y exégesis
     ├── prologo.htm.html
     ├── libros_de_la_biblia.htm.html
     ├── Genesis_01-20.htm.html
     ├── Exodo_01-23.htm.html
+    ├── Exodo_24-40.htm.html
     ├── Levitico.htm.html
     ├── Numeros.htm.html
     ├── deuteronomio.htm.html
