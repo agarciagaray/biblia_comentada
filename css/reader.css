@@ -477,15 +477,50 @@
   color: var(--accent-gold);
 }
 
-/* Superíndices de notas al pie */
+/* Superíndices de notas al pie y numeración de versículos */
 .biblia-content sup {
   font-size: 0.75em;
-  line-height: 0;
+  line-height: 1;
   position: relative;
   vertical-align: baseline;
-  top: -0.5em;
+  top: -0.4em;
   color: var(--accent-primary);
   font-weight: 700;
+}
+
+/* Protección total contra artefactos de FrontPage donde sup envuelve párrafos o bloques */
+.biblia-content sup:has(p),
+.biblia-content sup:has(dir),
+.biblia-content sup:has(div),
+.biblia-content sup:has(table) {
+  font-size: inherit;
+  line-height: inherit;
+  position: static;
+  vertical-align: baseline;
+  top: 0;
+  color: inherit;
+  font-weight: inherit;
+  display: contents;
+}
+
+/* Reglas de respaldo para navegadores que no soporten :has() o anidamientos profundos */
+.biblia-content sup p,
+.biblia-content sup dir,
+.biblia-content sup div,
+.biblia-content sup table {
+  font-size: var(--reader-font-size, 19px) !important;
+  line-height: var(--reader-line-height, 1.82) !important;
+  position: static !important;
+  top: 0 !important;
+  color: var(--text-main) !important;
+  font-weight: normal !important;
+  display: block !important;
+}
+
+.biblia-content p,
+.biblia-content p[align="justify"],
+.biblia-content p[align="center"] {
+  line-height: var(--reader-line-height, 1.82) !important;
 }
 
 /* Tablas antiguas de siglas / libros */

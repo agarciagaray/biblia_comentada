@@ -49,7 +49,7 @@ La obra comprende un corpus de **más de 18 megabytes de texto exegético versí
 | Tomo | Título del Volumen | Exégetas / Autores | Estado en el Proyecto |
 | :--- | :--- | :--- | :---: |
 | **Preliminar** | Prólogo General y Tablas de Abreviaturas | Alberto Colunga, O.P. & García Cordero, O.P. | ✅ Disponible |
-| **Tomo I** | **Pentateuco** (Génesis a Deuteronomio) | Alberto Colunga, O.P. & García Cordero, O.P. | ✅ Disponible (Caps. base) |
+| **Tomo I** | **Pentateuco** (Génesis a Deuteronomio) | Alberto Colunga, O.P. & García Cordero, O.P. | ✅ Completo (7 libros) |
 | **Tomo II** | **Libros Históricos del A. T.** (Josué a Macabeos) | Luis Arnaldich, O.F.M. | ✅ Completo (11 libros) |
 | **Tomo III** | **Libros Proféticos** (Isaías a Malaquías) | Maximiliano García Cordero, O.P. | ✅ Completo (18 libros) |
 | **Tomo IV** | **Libros Sapienciales** (Job, Salmos, Proverbios, etc.) | Maximiliano García Cordero, O.P. | ✅ Completo (10 libros) |
@@ -74,10 +74,11 @@ Biblia/
 │   └── reader.js            # Motor del lector: barra superior, progreso, TOC y preferencias
 ├── images/
 │   └── icon_32.png          # Iconografía optimizada
-└── pages/                   # 49 Libros en HTML5 semántico con el texto bíblico y exégesis
+└── pages/                   # 50 Libros en HTML5 semántico con el texto bíblico y exégesis
     ├── prologo.htm.html
     ├── libros_de_la_biblia.htm.html
     ├── Genesis_01-20.htm.html
+    ├── Genesis_21-50.htm.html
     ├── Exodo_01-23.htm.html
     ├── Exodo_24-40.htm.html
     ├── Levitico.htm.html

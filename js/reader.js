@@ -410,8 +410,29 @@
     });
   }
 
+  // Sanitizar artefactos de etiquetas FrontPage antiguas (sup huérfanos que envuelven párrafos o bloques)
+  function sanitizeMalformedElements() {
+    const content = document.querySelector('.biblia-content');
+    if (!content) return;
+
+    // Desempaquetar cualquier <sup> que contenga elementos de bloque (p, dir, div, table)
+    const sups = content.querySelectorAll('sup');
+    sups.forEach(sup => {
+      if (sup.querySelector('p, dir, div, table, blockquote, ul, ol')) {
+        const parent = sup.parentNode;
+        if (parent) {
+          while (sup.firstChild) {
+            parent.insertBefore(sup.firstChild, sup);
+          }
+          parent.removeChild(sup);
+        }
+      }
+    });
+  }
+
   // Inicializar componentes cuando el DOM esté listo
   function init() {
+    sanitizeMalformedElements();
     applyPreferences();
     injectProgressBar();
     injectTopBar();

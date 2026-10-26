@@ -66,7 +66,7 @@ const BIBLIA_CATALOG = [
     category: "pentateuco",
     categoryLabel: "Pentateuco",
     file: "Genesis_21-50.htm.html",
-    available: false,
+    available: true,
     description: "Historia de Isaac, Jacob y sus doce hijos; la epopeya de José en Egipto.",
     chapters: "Caps. 21 a 50"
   },
