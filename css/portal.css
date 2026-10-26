@@ -877,6 +877,15 @@
   text-decoration: underline;
 }
 
+.footer-author-link.vatican {
+  color: var(--accent-gold);
+}
+
+.footer-author-link.vatican:hover {
+  color: #D4AF37;
+  text-decoration: underline;
+}
+
 .footer-copy {
   font-size: 0.78rem;
   color: var(--text-muted);
@@ -910,14 +919,53 @@
   fill: currentColor;
 }
 
+/* ==================== BOTÓN Y BANNER BIBLIA DEL VATICANO ==================== */
+.btn-vatican-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.95rem;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, #B8860B 0%, #D4AF37 100%);
+  color: #1F1600;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all var(--trans-fast);
+}
+
+.btn-vatican-nav:hover {
+  background: linear-gradient(135deg, #D4AF37 0%, #E6C25B 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.5);
+  color: #000000;
+}
+
+.btn-vatican-nav svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
+/* Contenedor de Banners en Hero */
+.hero-banners-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  max-width: 860px;
+  margin: 1.75rem auto 0;
+}
+
 /* Banner de Lectura Diaria en Hero */
 .daily-reading-banner {
   background: linear-gradient(135deg, rgba(34, 158, 217, 0.08) 0%, rgba(var(--accent-primary-rgb), 0.06) 100%);
   border: 1px solid rgba(34, 158, 217, 0.25);
   border-radius: var(--radius-lg);
-  padding: 1.15rem 1.5rem;
-  margin: 1.75rem auto 0;
-  max-width: 820px;
+  padding: 1.1rem 1.4rem;
+  margin: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -963,6 +1011,83 @@
   line-height: 1.4;
 }
 
+/* Banner de Biblia en el Vaticano (Solo texto sin comentarios) */
+.vatican-reading-banner {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(184, 134, 11, 0.05) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: var(--radius-lg);
+  padding: 1.1rem 1.4rem;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  text-align: left;
+}
+
+.vatican-reading-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.vatican-reading-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #B8860B 0%, #D4AF37 100%);
+  color: #1F1600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.35);
+}
+
+.vatican-reading-icon svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.vatican-reading-title {
+  font-weight: 700;
+  font-size: 0.96rem;
+  color: var(--text-main);
+  margin-bottom: 0.2rem;
+}
+
+.vatican-reading-sub {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.btn-vatican-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, #B8860B 0%, #D4AF37 100%);
+  color: #1F1600;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all var(--trans-fast);
+}
+
+.btn-vatican-cta:hover {
+  background: linear-gradient(135deg, #D4AF37 0%, #E6C25B 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.5);
+  color: #000000;
+}
+
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 768px) {
   .portal-navbar-inner {
@@ -971,15 +1096,18 @@
     gap: 0.85rem;
   }
   .portal-nav-actions {
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 0.5rem;
   }
-  .daily-reading-banner {
+  .daily-reading-banner,
+  .vatican-reading-banner {
     flex-direction: column;
     text-align: center;
     align-items: center;
   }
-  .daily-reading-info {
+  .daily-reading-info,
+  .vatican-reading-info {
     flex-direction: column;
   }
   .search-and-view {

@@ -233,7 +233,8 @@
     modalTitle.textContent = book.title;
     modalDesc.innerHTML = `
       El volumen <strong>${book.title}</strong> (${book.tomoLabel}: ${book.tomoTitle}), comentado por <strong>${book.author}</strong>, forma parte del catálogo oficial de la obra pero <em>aún no ha sido digitalizado o no se encontraba incluido en este volcado local</em>.<br><br>
-      Puedes consultar los demás libros disponibles en esta misma sección o en los tomos ya digitalizados.
+      Si deseas leer el texto sagrado de este u otros libros bíblicos sin comentarios, puedes acceder a la traducción oficial de la Santa Sede: <strong>El Libro del Pueblo de Dios</strong> (traducción argentina) en <a href="https://www.vatican.va/archive/ESL0506/_INDEX.HTM" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-weight: 700; text-decoration: underline;">Vatican.va ↗</a>.<br><br>
+      También puedes consultar los demás libros disponibles en esta misma sección o en los tomos ya digitalizados.
     `;
     modalOverlay.classList.add('active');
   }

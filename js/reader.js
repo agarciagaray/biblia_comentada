@@ -114,7 +114,7 @@
         const matched = BIBLIA_CATALOG.find(b => b.file.toLowerCase() === targetFile.toLowerCase());
         if (matched && !matched.available) {
           e.preventDefault();
-          showToast(`⚠️ <strong>${matched.title}</strong> aún no se encuentra digitalizado en este volumen.`);
+          showToast(`⚠️ <strong>${matched.title}</strong> aún no se encuentra digitalizado en este volumen. Puedes leer el texto sagrado en el <a href="https://www.vatican.va/archive/ESL0506/_INDEX.HTM" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); text-decoration: underline; font-weight: bold;">Vaticano (Vatican.va) ↗</a>`);
         }
       }
     });
@@ -159,6 +159,14 @@
         </nav>
 
         <div class="reader-controls-right">
+          <!-- Enlace a la Biblia Oficial del Vaticano (Solo texto sin comentarios) -->
+          <a href="https://www.vatican.va/archive/ESL0506/_INDEX.HTM" target="_blank" rel="noopener noreferrer" class="reader-tool-btn btn-vatican-reader" title="Leer únicamente el texto bíblico oficial sin comentarios en el Vaticano (El Libro del Pueblo de Dios)">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-4H8v-2h3V7h2v3h3v2h-3v4z"/>
+            </svg>
+            <span>Biblia Vaticano</span>
+          </a>
+
           <button id="btn-toggle-toc" class="reader-tool-btn" title="Ver índice de secciones y capítulos">
             <svg viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/>
@@ -357,7 +365,13 @@
         <a href="../index.html" class="btn-back-portal">Catálogo General</a>
         ${nextBook ? `<a href="${nextHref}" class="card-action-btn">Siguiente: ${nextBook.shortTitle} →</a>` : ''}
       </div>
-      <div style="margin-top: 1.75rem; padding-top: 1.25rem; border-top: 1px solid var(--border-subtle); display: flex; flex-direction: column; align-items: center; gap: 0.6rem;">
+      <div style="margin-top: 1.75rem; padding-top: 1.25rem; border-top: 1px solid var(--border-subtle); display: flex; flex-direction: column; align-items: center; gap: 0.65rem;">
+        <div style="font-size: 0.88rem; color: var(--text-secondary); text-align: center;">
+          🏛️ <strong>¿Prefieres leer solo el texto bíblico sin comentarios?</strong> Visita la versión oficial de la Santa Sede:
+          <a href="https://www.vatican.va/archive/ESL0506/_INDEX.HTM" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-weight: 700; text-decoration: underline;">
+            El Libro del Pueblo de Dios (Vatican.va) ↗
+          </a>
+        </div>
         <div style="font-size: 0.88rem; color: var(--text-secondary);">
           📖 <strong>Lectura Diaria de la Biblia Católica:</strong> Únete al grupo de Telegram en <a href="https://t.me/labiblia365" target="_blank" rel="noopener noreferrer" style="color: #229ED9; font-weight: 700; text-decoration: underline;">t.me/labiblia365</a>
         </div>

@@ -38,6 +38,8 @@
   * Atajos de teclado: <kbd>Alt</kbd> + <kbd>←</kbd> (Libro anterior) y <kbd>Alt</kbd> + <kbd>→</kbd> (Libro siguiente).
   * Botón flotante para volver arriba con desplazamiento suave (*smooth scroll*).
   * Tarjeta inferior al concluir cada libro para continuar al siguiente volumen o volver al catálogo general.
+* **🏛️ Acceso Directo a la Biblia Oficial del Vaticano:**
+  * Enlaces estratégicos en el portal principal, barra superior y pie de página de cada libro hacia la versión oficial de la Santa Sede: [El Libro del Pueblo de Dios](https://www.vatican.va/archive/ESL0506/_INDEX.HTM) (traducción argentina), permitiendo al usuario leer únicamente el texto bíblico sin comentarios en cualquier momento.
 * **📱 Diseño 100% Responsivo:** Adaptado a pantallas de escritorio, portátiles, tablets y smartphones.
 
 ---

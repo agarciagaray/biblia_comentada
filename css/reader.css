@@ -166,6 +166,22 @@
   height: 16px;
 }
 
+/* Botón de acceso a la Biblia Oficial del Vaticano */
+.reader-tool-btn.btn-vatican-reader {
+  text-decoration: none;
+  border-color: rgba(180, 83, 9, 0.35);
+  color: var(--accent-gold);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.reader-tool-btn.btn-vatican-reader:hover {
+  background-color: var(--accent-gold-bg);
+  border-color: var(--accent-gold);
+  color: var(--text-main);
+}
+
 /* Menú desplegable de Ajustes de Lectura */
 .reader-settings-panel {
   position: absolute;
@@ -649,5 +665,8 @@
     right: 1.25rem;
     width: 42px;
     height: 42px;
+  }
+  .btn-vatican-reader span {
+    display: none;
   }
 }
