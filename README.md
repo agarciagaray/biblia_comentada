@@ -53,8 +53,8 @@ La obra comprende un corpus de **más de 18 megabytes de texto exegético versí
 | **Tomo II** | **Libros Históricos del A. T.** (Josué a Macabeos) | Luis Arnaldich, O.F.M. | ✅ Completo (11 libros) |
 | **Tomo III** | **Libros Proféticos** (Isaías a Malaquías) | Maximiliano García Cordero, O.P. | ✅ Completo (18 libros) |
 | **Tomo IV** | **Libros Sapienciales** (Job, Salmos, Proverbios, etc.) | Maximiliano García Cordero, O.P. | ✅ Completo (10 libros) |
-| **Tomo V** | **Evangelios** (San Mateo, Marcos, Lucas, Juan) | Manuel de Tuya, O.P. | ⏳ San Mateo (1-9) disp. |
-| **Tomo VI** | **Hechos, Epístolas y Apocalipsis** | Lorenzo Turrado | ⏳ Catalogado |
+| **Tomo V** | **Evangelios** (San Mateo, Marcos, Lucas, Juan) | Manuel de Tuya, O.P. | ✅ Completo (6 tratados / 4 Evangelios) |
+| **Tomo VI** | **Hechos, Epístolas y Apocalipsis** | Lorenzo Turrado | ✅ Completo (24 libros / tratados) |
 
 ---
 
@@ -69,62 +69,19 @@ Biblia/
 │   ├── portal.css           # Estilos de la portada, hero, cards, buscador y modales
 │   └── reader.css           # Estilos editoriales del lector, barra sticky, drawer y tipografía
 ├── js/
-│   ├── books-data.js        # Base de datos y catálogo maestro de los 65 libros/tratados
+│   ├── books-data.js        # Base de datos y catálogo maestro de los 80 libros y tratados
 │   ├── portal.js            # Lógica del portal: búsqueda en vivo, filtros por tomo y vistas
 │   └── reader.js            # Motor del lector: barra superior, progreso, TOC y preferencias
 ├── images/
 │   └── icon_32.png          # Iconografía optimizada
-└── pages/                   # 50 Libros en HTML5 semántico con el texto bíblico y exégesis
+└── pages/                   # 80 Libros en HTML5 semántico con el texto bíblico y exégesis (Tomos I a VI completos)
     ├── prologo.htm.html
     ├── libros_de_la_biblia.htm.html
     ├── Genesis_01-20.htm.html
     ├── Genesis_21-50.htm.html
-    ├── Exodo_01-23.htm.html
-    ├── Exodo_24-40.htm.html
-    ├── Levitico.htm.html
-    ├── Numeros.htm.html
-    ├── deuteronomio.htm.html
-    ├── Josue.htm.html
-    ├── jueces.htm.html
-    ├── rut.htm.html
-    ├── samuel_1_y_2.htm.html
-    ├── reyes_1_y_2.htm.html
-    ├── cronica_1_y_2.htm.html
-    ├── esdras_nehemias.htm.html
-    ├── tobit.htm.html
-    ├── judit.htm.html
-    ├── ester.htm.html
-    ├── macabeos_1_y_2.htm.html
-    ├── profetas_introduccion.htm.html
-    ├── profetas_isaias.htm.html
-    ├── profetas_jeremias.htm.html
-    ├── profetas_lamentaciones.htm.html
-    ├── profetas_baruc.htm.html
-    ├── profetas_ezequiel.htm.html
-    ├── profetas_daniel.htm.html
-    ├── profetas_oseas.htm.html
-    ├── profetas_joel.htm.html
-    ├── profetas_amos.htm.html
-    ├── profetas_abdias.htm.html
-    ├── profetas_jonas.htm.html
-    ├── profetas_miqueas.htm.html
-    ├── profetas_nahum.htm.html
-    ├── profetas_habacuc.htm.html
-    ├── profetas_sofonias.htm.html
-    ├── profetas_ageo.htm.html
-    ├── profetas_zacarias.htm.html
-    ├── profetas_malaquias.htm.html
-    ├── sapienciales_introduccion.htm.html
-    ├── sapienciales_libro_de_job.htm.html
-    ├── sapienciales_salmos_000-050.htm.html
-    ├── sapienciales_salmos_051-099.htm.html
-    ├── sapienciales_salmos_100-150.htm.html
-    ├── sapienciales_proverbios.htm.html
-    ├── sapienciales_eclesiastes.htm.html
-    ├── sapienciales_cantar_de_los_cantares.htm.html
-    ├── sapienciales_sabiduria.htm.html
-    ├── sapienciales_eclesiastico.htm.html
-    └── evang_mateo_00-09.htm.html
+    ├── ... (Pentateuco, Históricos, Proféticos y Sapienciales)
+    ├── evang_mateo_00-09.htm.html ... evang_juan.htm.html (Tomo V: Evangelios completos)
+    └── Hechos-apostoles.htm.html ... apocalipsis.htm.html (Tomo VI: Hechos, Epístolas y Apocalipsis)
 ```
 
 ---

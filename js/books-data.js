@@ -826,7 +826,7 @@ const BIBLIA_CATALOG = [
     category: "evangelios",
     categoryLabel: "Evangelios",
     file: "evang_mateo_10-18.htm.html",
-    available: false,
+    available: true,
     description: "Instrucción apostólica, las parábolas del Reino de los Cielos, confesión de Pedro y la Transfiguración.",
     chapters: "Caps. 10 a 18"
   },
@@ -842,7 +842,7 @@ const BIBLIA_CATALOG = [
     category: "evangelios",
     categoryLabel: "Evangelios",
     file: "evang_mateo_19-fin.htm.html",
-    available: false,
+    available: true,
     description: "Entrada en Jerusalén, discurso escatológico, Pasión, Muerte y Resurrección del Señor.",
     chapters: "Caps. 19 a 28"
   },
@@ -858,7 +858,7 @@ const BIBLIA_CATALOG = [
     category: "evangelios",
     categoryLabel: "Evangelios",
     file: "evangelio_de_san_marcos.htm.html",
-    available: false,
+    available: true,
     description: "El evangelio del Siervo poderoso de Dios y el secreto mesiánico revelado a través de los hechos.",
     chapters: "Caps. 1 a 16"
   },
@@ -874,7 +874,7 @@ const BIBLIA_CATALOG = [
     category: "evangelios",
     categoryLabel: "Evangelios",
     file: "evang_lucas.htm.html",
-    available: false,
+    available: true,
     description: "El evangelio de la misericordia, la ternura de la Virgen María, los pecadores y la salvación universal.",
     chapters: "Caps. 1 a 24"
   },
@@ -890,7 +890,7 @@ const BIBLIA_CATALOG = [
     category: "evangelios",
     categoryLabel: "Evangelios",
     file: "evang_juan.htm.html",
-    available: false,
+    available: true,
     description: "El Prólogo del Logos encarnado, el libro de los signos sagrados y el gran discurso de despedida sacerdotal.",
     chapters: "Caps. 1 a 21"
   },
@@ -908,7 +908,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Hechos-apostoles.htm.html",
-    available: false,
+    available: true,
     description: "Pentecostés, el nacimiento de la Iglesia en Jerusalén y la expansión misionera de San Pablo hasta Roma.",
     chapters: "Caps. 1 a 28"
   },
@@ -924,7 +924,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "introduccion_epistolas_paulinas.htm.html",
-    available: false,
+    available: true,
     description: "Cronología de los viajes de San Pablo, teología de la gracia y estilo epistolar en el mundo helenístico.",
     chapters: "Estudio introductorio integral"
   },
@@ -940,7 +940,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Romanos.htm.html",
-    available: false,
+    available: true,
     description: "La cumbre dogmática sobre la justificación por la fe en Jesucristo y la vida en el Espíritu Santo.",
     chapters: "Caps. 1 a 16"
   },
@@ -956,7 +956,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Corintios_1.htm.html",
-    available: false,
+    available: true,
     description: "Unidad eclesial, liturgia eucarística, el himno a la caridad (cap. 13) y la resurrección de los muertos (cap. 15).",
     chapters: "Caps. 1 a 16"
   },
@@ -972,7 +972,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Corintios_2.htm.html",
-    available: false,
+    available: true,
     description: "Apología del ministerio apostólico: la fuerza de Dios perfeccionada en la debilidad humana del apóstol.",
     chapters: "Caps. 1 a 13"
   },
@@ -988,7 +988,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Galatas.htm.html",
-    available: false,
+    available: true,
     description: "La carta magna de la libertad cristiana frente a la ley mosaica y los frutos del Espíritu Santo.",
     chapters: "Caps. 1 a 6"
   },
@@ -1004,7 +1004,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Efesios.htm.html",
-    available: false,
+    available: true,
     description: "El designio eterno de salvación en Cristo: la Iglesia como Cuerpo místico y la armadura espiritual de Dios.",
     chapters: "Caps. 1 a 6"
   },
@@ -1020,7 +1020,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Filipenses.htm.html",
-    available: false,
+    available: true,
     description: "La epístola del gozo en el Señor y el himno cristológico del abajamiento (Kénosis) y exaltación de Jesús.",
     chapters: "Caps. 1 a 4"
   },
@@ -1036,7 +1036,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Colosenses.htm.html",
-    available: false,
+    available: true,
     description: "La primacía cósmica y eclesial de Cristo por encima de todo poder creado y potestades angelicales.",
     chapters: "Caps. 1 a 4"
   },
@@ -1052,7 +1052,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Tesalonicenses_1.htm.html",
-    available: false,
+    available: true,
     description: "El primer escrito cronológico del N.T.: consuelo escatológico sobre la Parusía y la resurrección.",
     chapters: "Caps. 1 a 5"
   },
@@ -1068,7 +1068,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Tesalonicenses_2.htm.html",
-    available: false,
+    available: true,
     description: "Aclaraciones sobre las señales que precederán a la Segunda Venida y exhortación contra la ociosidad.",
     chapters: "Caps. 1 a 3"
   },
@@ -1084,7 +1084,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "las_cartas_pastorales.htm.html",
-    available: false,
+    available: true,
     description: "Estructura ministerial, defensa de la sana doctrina y organización de las comunidades cristianas primitivas.",
     chapters: "Estudio introductorio integral"
   },
@@ -1100,7 +1100,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Timoteo_1.htm.html",
-    available: false,
+    available: true,
     description: "Directrices para los obispos y diáconos, la oración litúrgica comunitaria y la fidelidad doctrinal.",
     chapters: "Caps. 1 a 6"
   },
@@ -1116,7 +1116,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Timoteo_2.htm.html",
-    available: false,
+    available: true,
     description: "El testamento espiritual de Pablo en su prisión romana: 'He combatido el buen combate, he terminado la carrera'.",
     chapters: "Caps. 1 a 4"
   },
@@ -1132,7 +1132,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Tito.htm.html",
-    available: false,
+    available: true,
     description: "Consejos para organizar la Iglesia en Creta, la sobriedad cristiana y las buenas obras de santidad.",
     chapters: "Caps. 1 a 3"
   },
@@ -1148,7 +1148,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Filemon.htm.html",
-    available: false,
+    available: true,
     description: "Intercesión amorosa de Pablo por el esclavo Onésimo, transformado ahora en hermano muy querido en la fe.",
     chapters: "Capítulo único (25 versículos)"
   },
@@ -1164,7 +1164,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "hebreos.htm.html",
-    available: false,
+    available: true,
     description: "El sacerdocio sumo y eterno de Jesucristo según el orden de Melquisedec y la Alianza definitiva.",
     chapters: "Caps. 1 a 13"
   },
@@ -1180,7 +1180,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "epistolas_catolicas.htm.html",
-    available: false,
+    available: true,
     description: "Visión de conjunto de las cartas universales de los apóstoles Santiago, Pedro, Juan y Judas.",
     chapters: "Estudio introductorio integral"
   },
@@ -1196,7 +1196,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Santiago.htm.html",
-    available: false,
+    available: true,
     description: "La vivencia práctica de la religión: la fe verdadera demostrada y manifestada por las obras concretas.",
     chapters: "Caps. 1 a 5"
   },
@@ -1212,7 +1212,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Pedro_1.htm.html",
-    available: false,
+    available: true,
     description: "Consuelo en el sufrimiento y persecución, la dignidad bautismal como 'pueblo adquirido por Dios'.",
     chapters: "Caps. 1 a 5"
   },
@@ -1228,7 +1228,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Pedro_2.htm.html",
-    available: false,
+    available: true,
     description: "Alerta contra falsos maestros, la paciencia del Señor y la promesa de cielos nuevos y tierra nueva.",
     chapters: "Caps. 1 a 3"
   },
@@ -1244,7 +1244,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Juan_1.htm.html",
-    available: false,
+    available: true,
     description: "Dios es Amor y Dios es Luz; el mandamiento fraterno y el testimonio de la vida eterna manifestada en Cristo.",
     chapters: "Caps. 1 a 5"
   },
@@ -1260,7 +1260,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "Juan_2_y_3.htm.html",
-    available: false,
+    available: true,
     description: "Breves misivas a la 'Señora elegida' y a Gayo sobre caminar en la verdad y rechazar a los seductores.",
     chapters: "2 Jn (13 vers.), 3 Jn (15 vers.)"
   },
@@ -1276,7 +1276,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "San_Judas.htm.html",
-    available: false,
+    available: true,
     description: "Exhortación vehemente a combatir con fidelidad por la fe transmitida a los santos de una vez para siempre.",
     chapters: "Capítulo único (25 versículos)"
   },
@@ -1292,7 +1292,7 @@ const BIBLIA_CATALOG = [
     category: "epistolas",
     categoryLabel: "Nuevo Testamento",
     file: "apocalipsis.htm.html",
-    available: false,
+    available: true,
     description: "La visión profética final: las siete iglesias, el Cordero degollado y triunfante, y la Jerusalén celestial descrita en gloria.",
     chapters: "Caps. 1 a 22"
   }

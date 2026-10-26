@@ -1,0 +1,182 @@
+[
+  {
+    "local": "evang_mateo_10-18.htm.html",
+    "remote": "Mateo_10-18.htm",
+    "status": "missing",
+    "size": 1271
+  },
+  {
+    "local": "evang_mateo_19-fin.htm.html",
+    "remote": "Mateo_19-fin.htm",
+    "status": "missing",
+    "size": 1271
+  },
+  {
+    "local": "evangelio_de_san_marcos.htm.html",
+    "remote": "Marcos.htm",
+    "status": "missing",
+    "size": 1271
+  },
+  {
+    "local": "evang_lucas.htm.html",
+    "remote": "Lucas.htm",
+    "status": "missing",
+    "size": 1271
+  },
+  {
+    "local": "evang_juan.htm.html",
+    "remote": "Juan.htm",
+    "status": "missing",
+    "size": 1271
+  },
+  {
+    "local": "Hechos-apostoles.htm.html",
+    "remote": "Hechos.htm",
+    "status": "missing",
+    "size": 1271
+  },
+  {
+    "local": "introduccion_epistolas_paulinas.htm.html",
+    "remote": "Introduccion_epist_paulinas.htm",
+    "status": "missing",
+    "size": 1271
+  },
+  {
+    "local": "Romanos.htm.html",
+    "remote": "Romanos.htm",
+    "status": "ok",
+    "size": 547703
+  },
+  {
+    "local": "Corintios_1.htm.html",
+    "remote": "Corintios_1.htm",
+    "status": "ok",
+    "size": 425876
+  },
+  {
+    "local": "Corintios_2.htm.html",
+    "remote": "Corintios_2.htm",
+    "status": "ok",
+    "size": 208743
+  },
+  {
+    "local": "Galatas.htm.html",
+    "remote": "Galatas.htm",
+    "status": "ok",
+    "size": 252202
+  },
+  {
+    "local": "Efesios.htm.html",
+    "remote": "Efesios.htm",
+    "status": "ok",
+    "size": 180329
+  },
+  {
+    "local": "Filipenses.htm.html",
+    "remote": "Filipenses.htm",
+    "status": "ok",
+    "size": 105960
+  },
+  {
+    "local": "Colosenses.htm.html",
+    "remote": "Colosenses.htm",
+    "status": "ok",
+    "size": 128760
+  },
+  {
+    "local": "Tesalonicenses_1.htm.html",
+    "remote": "Tesalonicenses_1.htm",
+    "status": "ok",
+    "size": 129160
+  },
+  {
+    "local": "Tesalonicenses_2.htm.html",
+    "remote": "Tesalonicenses_2.htm",
+    "status": "ok",
+    "size": 63832
+  },
+  {
+    "local": "las_cartas_pastorales.htm.html",
+    "remote": "Cartas_pastorales.htm",
+    "status": "missing",
+    "size": 1271
+  },
+  {
+    "local": "Timoteo_1.htm.html",
+    "remote": "Timoteo_1.htm",
+    "status": "ok",
+    "size": 121579
+  },
+  {
+    "local": "Timoteo_2.htm.html",
+    "remote": "Timoteo_2.htm",
+    "status": "ok",
+    "size": 57982
+  },
+  {
+    "local": "Tito.htm.html",
+    "remote": "Tito.htm",
+    "status": "ok",
+    "size": 35752
+  },
+  {
+    "local": "Filemon.htm.html",
+    "remote": "Filemon.htm",
+    "status": "ok",
+    "size": 418075
+  },
+  {
+    "local": "hebreos.htm.html",
+    "remote": "Hebreos.htm",
+    "status": "ok",
+    "size": 353705
+  },
+  {
+    "local": "epistolas_catolicas.htm.html",
+    "remote": "Epistolas_catol_introduccion.htm",
+    "status": "missing",
+    "size": 1271
+  },
+  {
+    "local": "Santiago.htm.html",
+    "remote": "Santiago.htm",
+    "status": "ok",
+    "size": 317591
+  },
+  {
+    "local": "Pedro_1.htm.html",
+    "remote": "Pedro_1.htm",
+    "status": "ok",
+    "size": 212886
+  },
+  {
+    "local": "Pedro_2.htm.html",
+    "remote": "Pedro_2.htm",
+    "status": "ok",
+    "size": 121783
+  },
+  {
+    "local": "Juan_1.htm.html",
+    "remote": "Juan_1.htm",
+    "status": "ok",
+    "size": 327797
+  },
+  {
+    "local": "Juan_2_y_3.htm.html",
+    "remote": "Juan_2_y_3.htm",
+    "status": "ok",
+    "size": 66813
+  },
+  {
+    "local": "San_Judas.htm.html",
+    "remote": "San_Judas.htm",
+    "status": "ok",
+    "size": 61716
+  },
+  {
+    "local": "apocalipsis.htm.html",
+    "remote": "Apocalipsis.htm",
+    "status": "ok",
+    "size": 978167
+  }
+]
